@@ -15,7 +15,7 @@
         <div id="top" class="fond_clair">
             <div class="titrePrincipal">
                 <h1>VENEZ FÊTER NOS ANNIVERSAIRES !!</h1>
-                <p class="attache">Marie et Augustin</p>
+                <p class="attache">Levasseur</p>
             </div>
             <div class="image">
               
@@ -27,30 +27,35 @@
         <div class="intro">
             <div class= "tel-c-fonce">
                 <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor" class="zoom bi bi-calendar-check-fill" viewBox="0 0 16 16">
-                        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
-                    </svg>
+                    <h1 class="age">
+                        18
+                    </h1>
+    
                 </div>
                 
-                <p>Dès vendredi 30/06</p>
+                <p>Adrien</p>
             </div>
 
             <div class= "tel-c-clair">
                 <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor" class="zoom bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                    </svg>
+                    <h1 class="age">
+                        20
+                    </h1>
+    
                 </div>
-                <p>1 route de Soissons 10170 Etrelles-sur-Aube</p>
+                
+                <p>Marie</p>
             </div>
 
             <div class= "tel-c-fonce">
                 <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor" class="zoom bi bi-currency-euro" viewBox="0 0 16 16">
-                        <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
-                    </svg>
+                    <h1 class="age">
+                        21
+                    </h1>
+    
                 </div>
-                <p>Participation : 15€</p>
+                
+                <p>Augustin</p>
             </div>
         </div>
         
@@ -60,13 +65,12 @@
             <div>
                 <h2>Introduction</h2>
                 <br/>
-                <p class="justifier">Bien que nos anniversaires soient respectivement le <span>10 avril</span> et le <span>30 janvier</span>, nous souhaitons fêter nos anniversaires en été. <br/>
-                Pour fêter nos 19 et 20 ans, nous vous invitons donc à la maison à Etrelles pour un week-end de folie ! <br/>
-                Au programme, camping, piscine, rigolade, grand jeu, barbecue et surtout revoir les coupaings  !!<br/>
-                Le budget étant assez conséquent, une participation de 15€ vous sera demandée. Elle permettra de financer la sono, les repas et l'organisation en général. <br/>
-                Il sera demandé à certains d'entre vous de réaliser un <a href='consigne.php#discours'> Discours </a>. Si vous êtes volontaire dites-le nous !<br/>
-                Nous recherchons aussi des personnes pour organiser et gérer l'événement (sécu / logistique / repas / animation)<br/><br/>
-                N'hésitez pas à envoyer vos photos dossier, vidéos à Hombeline (<a href='mailto:hombeline.lev@gmail.com' target ="_blank">hombeline.lev@gmail.com</a>). Elles seront passés sur un diaporama pendant le Weekend.</p>
+                <p class="justifier">Bien que nos anniversaires soient respectivement le <span>10 mai</span>, le <span>10 avril</span> et le <span>30 janvier</span>, nous souhaitons fêter nos anniversaires en été. <br/>
+                Pour fêter nos 18, 20 et 21 ans, nous vous invitons donc à la maison à Etrelles pour un week-end de folie ! <br/>
+                Au programme, camping, rigolade, grand jeu, barbecue et surtout revoir les coupaings  !!<br/>
+                Si vous avez déjà pu venir l'année dernière, nous vous garantissons que cette année, sera encore plus folle !
+                Il vous est cepandant demandé d'amener de quoi vous hydrater (exemple : bière)    
+            </p>
 
                 <div class="container btn-container" style="justify-content:center">
                     <a href="inscription.php" class="btn-index fond_clair ecriture_fonce">Inscription</a>
@@ -207,8 +211,9 @@
             <div class="carte">
                 <h2>Thème</h2>
                 <br/>
-                <p class="justifier">Le thème du week-end sera...EPOQUE MEDIEVALE !<br/>
-                Prenez vos meilleurs costumes pour le jeu, la soirée et tout le week-end. Ramenez vos épées, vos cottes de maille, vos fléaux d'armes, vos carquois et vos écus, vos rapières ainsi que vos destriers et vos mules !
+                <p class="justifier">Le thème du week-end sera...LE RETOUR DES VIKINGS !<br/>
+                Prenez vos meilleurs costumes pour le jeu, la soirée et tout le week-end. Ramenez vos halbardes, vos drakars et vos boucliers !
+                Nb : amenez-les dans vos affaires, on se déguisera au moment du jeu. <br/>
                 Que Dieu bénisse la France !
                 <br/>
                 <br/>

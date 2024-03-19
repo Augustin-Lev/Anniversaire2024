@@ -10,7 +10,7 @@
                 <p>
             </div>
             <div class="ordinateur "> 
-                1-2 juillet 2023
+                1-2 juin 2024
             </div> 
         </a>                   
         
@@ -18,14 +18,14 @@
             <li class="">
                 <a href="inscription.php" class="nav-link text-dark">Inscription</a>
             </li>
-            <li class="">
+            <!-- <li class="">
                 <a href="consigne.php" class="nav-link text-dark active">Consignes</a>
-            </li>
+            </li> -->
             <li class="">
                 <a href="invites.php" class="nav-link text-dark">Inscrits</a>
             </li>
             <li class="">
-                <a href="groupe.php" class="nav-link text-dark">Groupe Snap</a>
+                <a href="groupe.php" class="nav-link text-dark">Groupe whatsapp</a>
             </li>
             <?php if(isset($_COOKIE["organisateur"]) || (isset($_COOKIE["organisateur"])&& $_COOKIE["organisation"]== 1)) {
             echo '

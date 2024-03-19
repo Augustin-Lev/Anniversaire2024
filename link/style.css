@@ -13,6 +13,8 @@ color: #495057;
 }
 .fond-clair{
     background-color: #F2B035;
+    
+    #F2B035
 
 }
  
@@ -21,7 +23,9 @@ color: #495057;
 }
 
 
+
 */
+
 
 @keyframes zoom{
     from {
@@ -42,14 +46,14 @@ color: #495057;
 }
 
 .fond_clair{ /*ancien .couleur*/
-    background-color: #f2b035;
+    background-color: #a4b998;
 }
 .fond_fonce{
     background-color: #2e2e2e;
 
 }
 .ecriture_claire{
-    color : #F2B035;
+    color : #a4b998;
 }
 .ecriture_fonce, header, footer{
     color: #2e2e2e;
@@ -62,7 +66,7 @@ html, body{
 
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 16px;
-    background-color: #F2B035; 
+    background-color: #a4b998; 
   
 }
 body{
@@ -169,7 +173,9 @@ table {
 table{
     border-collapse: collapse;
 }
-
+.age{
+    font-size: 10vw;
+}
 /*
 h3{
     font-size : 1rem;
@@ -280,8 +286,6 @@ form{
     flex-direction: row;
     justify-content: space-around ;
     align-items: center;
-
-    background-color: #F2B035;
     color :#2e2e2e;
 }
 
@@ -314,7 +318,7 @@ form{
 
 
 .champsInscription{
-    color:#F2B035;
+    color:#a4b998;
 }
 
 .consigneParagraphe{
@@ -432,13 +436,13 @@ div.parent:hover .enfant{
 
 
 .fond_chevalier{
-    background-image:url("../image/fond_chevalier.png");
+    background-image:url("../image/drakar.png");
 }
 .fond_bouclier{
-    background-image:url("../image/fond_bouclier.png");
+    background-image:url("../image/casque.png");
 }
 .fond_lune{
-    background-image:url("../image/fond_lune.png");
+    background-image:url("../image/viking.png");
 }
 
 .orgaParent{
@@ -482,7 +486,7 @@ footer p{
 }
 
 select{
-    background-color: #F2B035;
+    background-color: #a4b998;
     padding: 0.5rem;
     border-radius: 10px;
     width:50%;
@@ -568,12 +572,12 @@ select{
 
     .consigneFonce{
         background-color:#2e2e2e; ;
-        color:#F2B035 ;
+        color:#a4b998 ;
         min-height: 100vh;
         padding: 0 8% 0 8%;
     }
     .consigneClaire{
-        background-color: #F2B035;
+        background-color: #a4b998;
         color:#2e2e2e;
         min-height: 100vh;
         padding: 0 8% 0 8%;
@@ -596,19 +600,19 @@ select{
         height: 100vh;
         width: 100vw;
 
-        color: #F2B035;
+        color: #a4b998;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
     .tel-c-fonce{
-        background-color: #F2B035;
+        background-color: #a4b998;
         color:#2e2e2e;
     }
     
     .tel-c-clair{
         background-color: #2e2e2e;
-        color: #F2B035;
+        color: #a4b998;
     }
 
     .intro{
