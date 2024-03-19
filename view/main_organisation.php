@@ -12,7 +12,7 @@
     <div class="container btn-container" style="justify-content:center">
         <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:x:/g/personal/augustin_levasseur_etu_unilasalle_fr/ERwYUmFlt3lKiOBlce-SjgIB50XMRP9FyV51rTnejuZxWA?e=gbgwLA" class="btn-index fond_clair ecriture_fonce">Liste invité de base</a>
         
-        <a target="_blank" href="https://www.canva.com/design/DAFVez-s4Ro/l6hPNauo5sDsGX9A-RETgQ/edit?utm_content=DAFVez-s4Ro&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn-index fond_clair ecriture_fonce">Canva</a>
+        <a target="_blank" href="https://www.canva.com/design/DAF_hpN8KYY/K4Tqp8WSloffHLnqiXUI5Q/edit?utm_content=DAF_hpN8KYY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn-index fond_clair ecriture_fonce">Canva</a>
         
         <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:x:/g/personal/augustin_levasseur_etu_unilasalle_fr/EeriWQD22HtOjdos4xLadicBLrsvEBgtGa7i0sJTzGCH8A?e=Dthczl" class="btn-index fond_clair ecriture_fonce">Prévisions Budgetaire</a>
     </div> 
@@ -31,6 +31,11 @@
         <img src= "../image/7.jpg" alt='image pour orga'>
         <img src= "../image/8.jpg" alt='image pour orga'>
         <img src= "../image/9.jpg" alt='image pour orga'>
+    </div>
+    <div class="orgaParent">
+        <img src= "../image/10.jpg" alt='image pour orga'>
+        <img src= "../image/11.jpg" alt='image pour orga'>
+        <img src= "../image/12.jpg" alt='image pour orga'>
     </div>
 
 </main>

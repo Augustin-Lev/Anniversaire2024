@@ -16,14 +16,20 @@
         
         <ul class="childTwo ">
             <li class="">
+                <a href="index.php" class="nav-link text-dark">Inscription</a>
+            </li>
+            <!-- 
+            <li class="">
                 <a href="inscription.php" class="nav-link text-dark">Inscription</a>
             </li>
-            <!-- <li class="">
+            <li class="">
                 <a href="consigne.php" class="nav-link text-dark active">Consignes</a>
-            </li> -->
+            
             <li class="">
                 <a href="invites.php" class="nav-link text-dark">Inscrits</a>
             </li>
+            </li> -->
+            
             <li class="">
                 <a href="groupe.php" class="nav-link text-dark">Groupe whatsapp</a>
             </li>
