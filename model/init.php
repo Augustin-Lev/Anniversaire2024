@@ -16,17 +16,17 @@
             <ul>';
 
         try {
-            $PDO = new PDO('mysql:host=localhost', 'u734868843_augustin', '4a:P:N6u:LKZ');
+            $PDO = new PDO('mysql:host=localhost', 'u542959740_augustin', '4a:P:N6u:LKZ');
         }catch(PDOExeption $e){
             echo 'Erreur lors de la connection à la base de donées';
         }
 
 
-        if ($PDO->exec('DROP DATABASE IF EXISTS u734868843_anniversaire') !== false) {
-            if ($PDO -> exec('CREATE DATABASE u734868843_anniversaire') !==null){
+        if ($PDO->exec('DROP DATABASE IF EXISTS u542959740_anniversaire') !== false) {
+            if ($PDO -> exec('CREATE DATABASE u542959740_anniversaire') !==null){
                 echo "<li>création de la base réussi !</li> <br/>";
                 try{
-                    $tablePDO = new PDO('mysql:host=localhost;dbname=u734868843_anniversaire', 'u734868843_augustin', '4a:P:N6u:LKZ');
+                    $tablePDO = new PDO('mysql:host=localhost;dbname=u542959740_anniversaire', 'u542959740_augustin', '4a:P:N6u:LKZ');
                     echo '<li>liaison a la base de donnée réussie</li><br/>';
                 }catch(PDOExeption $e){
                     echo '<li>echec de la liaison a la base de données</li><br/>';

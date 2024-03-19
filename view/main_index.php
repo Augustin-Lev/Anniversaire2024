@@ -1,7 +1,5 @@
 <main>
 
-        
-   
             <?php if(isset ($_GET['success']) && $_GET['success'] == 1){            
                 echo  '<div class="carte" style="margin: 5% 20% 0% 20%;text-align:center; display:flex; flex-direction:column">';
                 echo '<h2>Succès</h2>';
@@ -79,6 +77,26 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="fond_clair ecriture_fonce image-carte">
+            <div class="index-cote-carte" >
+                <img width = 100% src="../image/carte3.png" alt="image de la carte présentant l'arrivée des voitures">
+            </div>
+            
+            <div class="index-cote-carte">
+                <h2>Les choses à emporter</h2>
+                <br/>
+                <ul >
+                    <li> <p>une tente + duvet + matelas</p></li>
+                    <li> <p>des habits d'été (short) + basquettes</p></li>
+                    <li> <p>Une tenu qui ne crain rien (treilli / pantalon recommandé) + basquettes qui ne craigent pas</p></li>
+                </ul>
+
+            </div>
+            
+        </div>
+
 
         <div class="fond_clair ecriture_fonce paragraphe">
             <div class="carte ecran">

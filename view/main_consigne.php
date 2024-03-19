@@ -49,10 +49,6 @@
                         <p>Amener de l'alcool plutôt de type bière</p>
                     </li>
                     <li>
-                        <p>Participation financière de 15€</p>
-                    </li>
-            
-                    <li>
                         <p>Amener tente / duvet / matelas, tapis de sol</p>
                     </li>
                     <li>
