@@ -81,7 +81,7 @@
 
         <div class="fond_clair ecriture_fonce image-carte">
             <div class="index-cote-carte" >
-                <img width = 100% src="../image/carte3.png" alt="image de la carte présentant l'arrivée des voitures">
+                <img width = 100% src="../image/voiture.jpg" alt="image de la carte présentant l'arrivée des voitures">
             </div>
             
             <div class="index-cote-carte">
@@ -93,6 +93,29 @@
                     <li> <p>Une tenu qui ne crain rien (treilli / pantalon recommandé) + basquettes qui ne craigent pas</p></li>
                 </ul>
 
+            </div>
+            
+        </div>
+
+        <div class="fond_clair ecriture_fonce image-carte">
+            <div class="index-cote-carte">
+                <h2>Le lieux</h2>
+                <br/>
+                <p>Vous êtes cordialement invité à la ferme à Etrelles !<br/><br/>
+                1 route de soissons<br/>
+                10170 Etrelles sur Aube</p>
+
+                <ul >
+                    <li> <p>Gare la plus proche : Romilly sur seine</p></li>
+                    <li> <p>Pour les covoiturage, vous organiser via l'excel suivant</p></li>
+                </ul>
+                <div class="container btn-container" style="justify-content:center">
+                    <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:x:/g/personal/augustin_levasseur_etu_unilasalle_fr/EdZfvyV1DnJIpe9u_z5wRCUBUkTIiInrb8IvGJLB8ZnSEA?e=kOfuXP" class="btn-index fond_fonce ecriture_claire">Covoiturage</a>
+               </div>
+
+            </div>
+            <div class="index-cote-carte" >
+                <img width = 100% src="../image/ad+guss.jpg" alt="image de la carte présentant l'arrivée des voitures">
             </div>
             
         </div>
