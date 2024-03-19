@@ -1,0 +1,677 @@
+/*
+.Couleurs{
+
+
+border: 1px solid #dee2e6;
+background-color: #704608;
+
+
+color:#70542A;
+color:hsl(199, 93%, 42%);
+color: #402F00;
+color: #495057;
+}
+.fond-clair{
+    background-color: #F2B035;
+
+}
+ 
+.fond-fonce{
+    background-color:  #1E0700;
+}
+
+
+*/
+
+
+
+.fond_clair{ /*ancien .couleur*/
+    background-color: #F2B035;
+}
+.fond_fonce{
+    background-color:  /*#1E0700*/ #365b6d;
+    background-color: #365b6d;
+}
+.ecriture_claire{
+    color : #F2B035;
+}
+.ecriture_fonce{
+    color:  /*#1E0700*/ #365b6d;
+}
+
+html, body{
+    padding: 0%;
+    margin: 0%;
+    height:100%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    background-color: #F2B035; 
+  
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+ 
+}
+ul, ol{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+nav{
+    padding:0%;
+    position: fixed;
+    top : 0;
+    width: 100vw;
+}
+.container{
+    display: flex;
+}
+
+header{
+    z-index: 100;
+}
+.logo{
+    flex : 1;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black;
+}
+
+.childTwo{
+    flex : 6;
+    display: flex;
+}
+
+nav>ul>li{
+    list-style: none;
+    margin : 2%;
+}
+nav>ul>li>a{
+    color:black;
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+    margin: 8rem 20% 0% 20%;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+
+}
+/*.carte{
+
+    padding:1rem;
+    margin: 0% 20% 0% 20%;
+    padding-top: 5%;
+
+}*/
+h2{
+    padding: 0%;
+    margin: 0%;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+a{
+    color:hsl(199, 93%, 42%);
+    text-decoration: none;
+}
+.btn, .btn-index{
+    font-size: inherit;
+    margin : 1rem 0rem 1rem 0rem;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    border-radius: 5px 5px;
+    
+    border: none;
+    text-align: center;
+}
+.btn-index{
+    margin : 1rem;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.table td{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+footer{
+    margin-top: 5%;
+    padding-top : 2%;
+    padding-bottom : 2%;
+    font-size : 0.75em;
+}
+/*
+h3{
+    font-size : 1rem;
+}
+*/
+
+form{
+    padding:5% 30% 0% 30%;
+}
+.champ{
+    display: block;
+    width: 95%;
+    height: calc(1.5rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.compteur{
+    width:13%; 
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    margin-top: 2%;
+    border-radius: 0.5rem;
+}
+
+.btn-container{
+    justify-content:space-around;
+    padding-top:5%;
+}
+
+/*
+.carte>ul{
+    padding-left:2rem ;
+}*/
+.tel, .telephone{
+    display: none;
+}
+.TroisBoutons{
+    justify-content:center;
+}
+.fin{
+    justify-content:space-around;
+    padding-bottom:5%;
+}
+
+.ecran{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center ;
+
+}
+.remonter{
+    position :fixed;
+    height: 5vw;
+    width: 5vw;
+    bottom : 10%;
+    right: 10%;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.remonter>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : black;
+}
+
+
+.image{
+    background-image: url("../image/champagne.jpg");
+    height: 100vh;
+
+
+}
+.image-carte{
+    display: flex;
+    width: 100vw;
+}
+
+.image-carte>div{
+    flex :1;
+}
+
+#top{
+    height:auto;
+    width: 100vw;
+    background-color: #cec19f;
+}
+
+.titrePrincipal{
+    position: absolute ;
+    color:#dee2e6;
+    
+    height: 100%;
+    width: 100%;
+}
+.titrePrincipal>h1{
+    margin-top: 25%;
+ 
+}
+
+
+.intro{
+    height: 100vh;
+    width : 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+
+    background-color: #F2B035;
+    color : /*#1E0700*/ #365b6d;
+}
+
+.intro>div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    text-align: center;
+
+    height: 25vh;
+    width : 25vw;
+}
+
+.intro>div>p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.intro>div>div>svg{
+    height: 50%;
+    width: 50%;
+    transition: height 2s, width 2s;
+
+}
+
+.intro>div>div>svg:hover{
+    height: 70%;
+    width: 70%;
+}
+
+
+.champsInscription{
+    color:#F2B035;
+}
+
+.consigneParagraphe{
+    height: auto;
+    width: 100vw;
+}
+
+.blocConsigne{
+    min-height: calc(100vh - 25% - 2.5rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.consigneClaire, .consigneFonce{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tel-titre{
+    height: auto;
+    margin-top: 0%;
+
+}
+.tel-titre>h1{
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin:auto;
+}
+
+.tableInscris{
+    border-radius: 0.2rem;
+}
+
+.paragraphe{
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.centrageInscription{
+    display: block;
+}
+.paragraphe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.justifier{
+    text-align:center;
+}
+.container-2btn{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.enfant
+{
+ display: none;
+}
+
+div.parent:hover .enfant{
+	display:block;
+}
+
+.droite{
+    float:left;
+}
+.gauche{
+    float:right;
+}
+
+.deroulant{
+    display: none;
+}
+
+.index-cote-carte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+    
+    p{
+        font-size: 46px;
+    }
+
+    ol{
+        margin-left: 12%;
+        margin-right: 8%;
+    }
+
+    .image-carte{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        padding-bottom: 4rem;
+        
+    }
+
+    .suvole .deroulant:hover{
+        display: block;
+        height: 100vh;
+
+    }
+    .caseHeader{
+        border-top: solid  /*#1E0700*/ #365b6d 1px;
+        padding-bottom: 0.5em;
+    }
+    .caseHeader>a{
+        color: black;
+    }
+
+    .survole{
+        transform: rotate(0deg);
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+
+    .telephone{
+        display: block;
+    }
+
+    .bandeau-tel{
+        margin: 0% 10% 0% 10%;
+
+    }
+    .bandeau-tel>p{
+        font-size: 60px;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+    }
+
+    .pointsHeader{ /*pour les 3 point du header*/
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .pointsHeader:hover{
+        transform: rotate(90deg);
+    }
+
+    .centrageInscription{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blocConsigne{
+        min-height: 100vh;
+        display:block;
+
+    }
+
+    .consigneFonce{
+        background-color: /*#1E0700*/ #365b6d; ;
+        color:#F2B035 ;
+        min-height: 100vh;
+    }
+    .consigneClaire{
+        background-color: #F2B035;
+        color: /*#1E0700*/ #365b6d;
+        min-height: 100vh;
+    }
+  
+
+    
+    .tel-titre{
+        height: 100vh;
+        width: 100vw;
+
+        color: #F2B035;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .tel-c-fonce{
+        background-color: #F2B035;
+        color: /*#1E0700*/ #365b6d;
+    }
+    
+    .tel-c-clair{
+        background-color:  /*#1E0700*/ #365b6d;
+        color: #F2B035;
+    }
+
+    .intro{
+        flex-direction: column;
+        justify-content:center ;
+
+        height:auto;
+        width: auto;
+    }
+    .intro>div{
+        height: 100vh;
+        width : 100vw;
+    }
+
+    .intro>div>p{
+        font-size: 6rem;
+        font-weight: bold;
+    }
+
+    .image{
+        background-image: url("../image/champagne_fin.jpg");
+        height:100vh;
+        width: auto;
+        background-size: cover;
+
+    }
+
+
+    #top{
+        height:100vh;
+        width: 100vw;
+        background-color: #dee2e6;
+        overflow: hidden;
+    }
+    
+    .titrePrincipal{
+        position: absolute ;
+        
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .titrePrincipal>h1{
+        margin: auto;
+        margin-left: 10%;
+        margin-right:10%;
+
+
+    }
+
+    .btn, .btn-index{
+        height:4rem;
+        font-size: 3rem;
+    }
+    .table{
+        font-size: 4rem;
+    }
+
+    .childTwo{
+        display: none;
+    }
+    .compteur{
+        margin:auto;
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    form{
+        padding: 2%;
+    }
+    label{
+        font-size: 2rem;
+    }
+
+    .submit{
+        font-size: 2rem;
+        height:auto;
+    }
+    .checkbox{
+        width:2rem;
+        height:2rem;
+    }
+    .tel{
+        display: contents;   
+        font-size: 4rem;
+        display: flex;
+        align-items: center;
+        background-color: #BF8C00; 
+        padding-left: 2%;
+        padding-right: 4%;
+    }
+    h2{
+        font-size: 4rem;
+        font-weight: bold;
+        padding-top: 4rem;
+    }
+    
+    .champ{
+        height: 3rem;
+    }
+
+    .ordinateur{
+        display: none;
+        
+    }
+
+    .btn-container{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .btn-seul{
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+
+    }
+    .fin{
+        margin-top: 0%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        margin: 0;         
+    }
+    td{
+        font-size: 3rem;
+    }
+    .tel>p{
+        font-size: 2rem;
+    }
+    .justifier{
+        text-align:justify;
+    }
+    h1{
+        margin: 0% 20% 0% 20%;
+        font-size: 4rem;
+    }
+    .titre_consigne{
+        text-decoration: underline;
+        padding-bottom: 4%;
+        font-weight: bold ;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1300px) {
+    .image{
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+}

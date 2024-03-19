@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="https://augustinlevasseur.fr/index.php">
+
+   <url>
+
+      <loc>https://augustinlevasseur.fr/controller/index.php</loc>
+
+      <lastmod>2023-01-02</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://augustinlevasseur.fr/controller/inscription.php</loc>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://augustinlevasseur.fr/controller/consigne.php</loc>
+
+      <lastmod>2023-01-02</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://augustinlevasseur.fr/controller/invites.php</loc>
+
+      <lastmod>2023-01-02</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://augustinlevasseur.fr/controller/groupe.php</loc>
+
+      <lastmod>2023-01-02</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://augustinlevasseur.fr/controller/organisation.php</loc>
+
+      <lastmod>2023-01-02</lastmod>
+      
+   </url>
+
+</urlset>

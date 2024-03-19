@@ -1,0 +1,129 @@
+ID;nom;prenom;telephone;email;organisation;presence
+1;LEVASSEUR;Augustin;0766540660;augustin.levasseur@etu.unilasalle.fr;0;1
+2;VILLEFROY ;Clémence ;0677877042;clemence.villefroy@gmail.com;0;attente
+3;RENAUDIN;Philippine ;0767880838;philippinernd@gmail.com;0;attente
+4;LEVASSEUR;Adrien;0620407626;adrien.levasseur@yahoo.com;1;1
+5;AGEORGES;Hortense;0769436972;h.ageorges@yahoo.com;0;1
+6;LEVASSEUR;Hombeline;0625833089;hombeline.lev@gmail.com;0;1
+7;LECOCQ;Camille;0645950721;camille.lcq5@gmail.com;0;attente
+8;DELATOUR;Annette;0699771338;annettedelat@gmail.com;0;attente
+9;DE MALLIARD ;Mathilde ;0666823070;demalliardmathilde@gmail.com;0;attente
+10;INACIO ;Julia ;0782135372;Julia.inacio2511@gmail.com;0;attente
+11;COUSSEMENT;Raphaël;0766140304;raphiki.coussement@gmail.com;0;attente
+12;BAUDET;Alix;0752050383;alixmaps@baudet.org;0;attente
+13;BARTH;Foucault ;0662570837;fouc.brh@gmail.com;0;attente
+14;PERICHON;Lucie ;0782966922;lucie.perichon@free.fr;0;0
+16;CHARDIN;Margaux ;0781410524;margaux.chardin@icloud.com;0;1
+17;PAGET;Le meilleur des augustin ;0647966567;augustin.paget10@gmail.com;0;attente
+18;MAURIN ;Julie ;0624752697;maurin.j06@gmail.com;1;attente
+19;NOLF;Eva;0652177070;nolfeva@gmail.com;0;attente
+20;D'ASTORG ;Sixtine ;0622740082;sixtine.dastorg@gmail.com;0;attente
+21;DANNAY;Soïzic ;0688598589;soizicdannay@orange.fr;0;0
+22;MEILLIEZ ;Claire;0674203616;c.meilliez29@gmail.com;0;attente
+23;LAMY;Apolline;0614227673;apollinelamyperso@gmail.com;1;attente
+24;ADELINE;Fabien;0788601799;fab.adeline@gmail.com;0;attente
+25;GUILLEMINOT ;Pierre ;0671757273;gmot.pierre@gmail.com;0;attente
+26;STAUBLE;Lauïs;0641941295;lauis.stauble@gmail.com;0;1
+27;AGEORGES;Donatien;0750224406;donatien.ageorges@yahoo.fr;0;1
+28;AGEORGES;Cyprien;0767997019;cyprien.ageorges@gmail.com;0;1
+29;DUBREUCQ ;Martha ;0675365759;dubreucq.martha97@gmail.com;1;attente
+30;DOUCE;Sarah;0783601604;sarah3.douce@gmail.com;0;attente
+31;BOHLER;Loïc;0782462844;bohler-loic@orange.fr;0;attente
+32;LA FRIPOUILLE alias LALUC;Jacquouille alias héloïse ;0767260260;heloise.laluc@etu.unilasalle.fr;0;1
+33;COUSSEMENT ;Philippe;0669662540;philippe.coussement10@gmail.com;1;attente
+34;BOURIENNE;Rudy;0760294146;rudybourienne@gmail.com;1;attente
+35;PLUOT;Grégoriane;0782921704;gregplt30@icloud.com;0;attente
+36;BERGOT;Marianne;0778186749;marianne.bergot@etu.unilasalle.fr;0;0
+37;DE LONGEAUX ;Sybille;0700000000;sybillette@orange.fr;0;attente
+38;LAURENT;Tiphaine ;0645271331;tiphaine.12.laurent@gmail.com;1;attente
+39;AGEORGES;Constantin;0783523183;constantin.ageorges@gmail.com;1;1
+40;BEYER;Agathe;0783364036;agathebeyer.10@gmail.com;0;attente
+41;GLORIAN;Pierre;0640825735;glorian.pierre@gmail.com;0;0
+42;KULAWIK;Alexis;0659102623;alexis.kulawik@orange.fr;0;attente
+43;CHATELAIN ;Mathilde;0754358073;mathilde.chatelain@etu.unilasalle.fr;0;attente
+44;GAILLARD ;Solène;0769890914;solene1gaillard@icloud.com;0;attente
+46;CINC;Jules;0782813430;jules.cinc@gmail.com;1;1
+47;LESCUYER;François ;0651211127;fxlescuyer@gmail.com;1;1
+48;CALLEWAERT ;Helene ;0625989459;hln.callewaert10@gmail.com;1;attente
+49;MONTAIGNE;Lucie;0601054594;lucie.montaigne06@gmail.com;1;attente
+50;BASSAC;Antoine;0767074424;bassac.antoine@gmail.com;0;attente
+51;VAN BRUNSCHOT ;Bart ;0637931304;vanbrunschotbart@gmail.com;1;1
+52;PAGET;Augustin ;0647966567;Augustin.paget10@gmail.com;0;attente
+53;ADAM;Laetitia;0616195069;laetitia.adam02@gmail.com;0;attente
+54;JONARD;François;0788623438;francois.jonard7@gmail.com;0;0
+55;DE VALLéE;Lucile;0783630007;luciledevallee@gmail.com;0;1
+56;VAN DEN BOSSCHE;Antoine;0768033500;antoine.vandenbossche@etu.unilasalle.fr;0;attente
+57;PARISY ;Jauceranne ;0761558627;jaucepy@gmail.com;0;attente
+58;CRESPIN;Augustin;0766031490;augustin.crespin35@gmail.com;0;1
+59;DE ROBIEN;Vinciane;0788370142;vinciane.derobien@etu.unilasalle.fr;0;attente
+60;BOOF;Marion;0761439705;marion.boof@etu.unilasalle.fe;0;attente
+61;BLOSSIER;Guillemette ;0613672125;guillemette@blossier.eu;0;attente
+62;CLéMENT ;Vianney;0768475380;vianney.clement@etudiants.purpan.fr;0;attente
+63;CROISON;Hortense;0781025628;hortense.croison@gmail.com;0;attente
+64;CARLU;Romain;0695572729;romain.carlu@etu.unilasalle.fr;0;attente
+65;PAREY;Emilien;0780605824;emilienparey@gmail.com;0;1
+66;BERTHELIN ;Éric ;0635526601;eberthelin@icloud.com;0;attente
+67;BOURCEVET;Pierre;0689049819;pierre.bourcevet@orange.fr;1;1
+68;VILLARD;Lauris;0669362493;lauris.villard@gmail.com;0;1
+69;BROCHARD ;Amaury ;0652372365;a.brochard02@gmail.com;0;attente
+70;LE BRUN;Célia ;0621146909;celialebrun2005@gmail.com;0;0
+72;DRIVIERE;Baptiste;0688415909;baptiste.driviere@gmail.com;0;1
+74;JACQUIET;Joséphine;0415836542;jenetedonneraipasmonmail@yahoo.fr;0;0
+75;VAN BRUNSCHOT ;Bart ;0637931304;vanbrunschot@gmail.com;0;1
+77;DOUCE;Baptiste;0783599071;baptiste5.douce@gmail.com;0;attente
+79;BRIAND;Manuela;0680568568;manuelabriand10@gmail.com;0;attente
+80;MACLOU ;Margaux ;0629729214;margaux.maclou@orange.fr;0;attente
+81;DELLA LIBERA;Axel;0784343775;axel.dellalib@gmail.com;0;0
+82;PIAT;Agathe;0781698741;agathe.piat10@gmail.com;0;attente
+83;FOUCART ;Etienne ;0769022234;stevefcrt@gmail.com;1;attente
+84;PASSIER ;Mathilde ;0601271307;mathildepassier@outlook.fr;0;0
+85;DUVERNOY ;Amandine ;0613773229;duvernoyamande26@gmail.com;0;attente
+86;DE LONGEAUX ;Côme;0782447123;come.delongeaux@free.fr;0;attente
+87;MECHLER;Emilien;0688974266;emilienmechler@orange.fr;0;attente
+88;GESQUIERE ;Eva ;0767518980;evagsq@icloud.com;1;attente
+89;CROISON;Paul;0781461841;paulcroison@gmail.com;0;1
+90;GAUTIER ;Lucien ;0642826347;lucien.gautier0414@gmail.com;0;attente
+91;BAILLY;Aurore;0615927500;aurore.bailly@etu.unilasalle.fr;0;attente
+92;JURINE;Amélie;0767426538;jurineamelie@gmail.com;0;0
+93;DE VALLéE;Wandrille;0781889996;wandrilledevallee@gmail.com;0;attente
+94;DUVAL;Ninon;0609659465;ninon.duval.17.11@gmail.com;0;attente
+95;SCHINDFESSEL;Theo;0617541499;schindfesseltheo@gmail.com;1;1
+96;DEMANGEL ;Pierre;0784006681;piedem03@gmail.com;0;attente
+97;ANDREOU ;Nicolas ;0769851921;1nicolas.andreou@gmail.com;0;attente
+98;PERRIN;Paul;0788679054;paul.ec.perrin@gmail.com;0;attente
+99;MILLARD;Mathis;0771083582;mathis03032003@gmail.com;0;attente
+100;SIMON;Léna;0695109324;simon-lena@hotmail.fr;0;attente
+101;TANCRE;Paul;0664658151;paul.tancre59274@gmail.com;0;attente
+102;BERTRAM;Eugene;0783747337;eugenebertram@gmail.com;0;attente
+103;MORLET;Sophie;0770111877;sophie.morlet02@gmail.com;0;attente
+104;FAYOLLE;Julie;0750824032;jftopo2b@yahoo.fr;0;attente
+105;DE CHILLAZ ;Isaure;0638797932;isaure2chillaz@orange.fr;0;attente
+106;BESSON ;Grégoire ;0766563841;greg.besson56@gmail.com;0;attente
+107;BAYVET;Guillaume;0772216618;guillaume.bayvet@gmail.com;0;attente
+108;GODIN;Marine;0782443453;marinegodin772@gmail.com;0;attente
+109;MAGNIEZ;Marion ;0678263255;marionmagniez27@icloud.com;0;attente
+110;COMBOT ;Marie ;0767815305;marie.combot@etu.unilasalle.fr;0;attente
+112;BERNARD;Dorian;0650252964;dorian.bernard095@gmail.com;1;attente
+113;HUYGHE ;Léopold ;0769965916;leopold.huyghe@etu.unilasalle.fr;0;attente
+114;BILLARD;Louise;0767634115;billardlouise@icloud.com;0;attente
+115;FINCK;Isalyne ;0619488041;isalynefinck@gmail.com;0;attente
+116;THOMAS;Corentin;0755644605;corentin.thomas@etu.unilasalle.fr;0;1
+117;LETIERCE;Louise;0673861223;letierceloulou@gmail.com;1;attente
+118;HARIVEL;Melissa;0695464609;melissa.harivel@gmail.com;0;attente
+119;DE BOISSIèRE;Aymeline;0783425091;aymdebois@gmail.com;0;attente
+120;LORRAIN;Alice;0768014153;alice.lorrain@etu.unilasalle.fr;0;0
+121;VAUTRIN;Jade;0782666180;jadevautrin19@gmail.com;0;attente
+122;CHRETIEN;Diane;0782237543;diane.chretien@etu.unilasalle.fr;1;attente
+123;COSSé;Claire-marie;0768771562;claire-marie.cosse@etu.unilasalle.fr;1;1
+124;CHANTREAU;Enora;0769159720;enora.chantreau@orange.fr;0;attente
+125;VAN DEN BOSSCHE;Laura;0643406749;laura.vandenbossche4@gmail.com;0;attente
+126;MAURIN;Margaux;0626388945;margauxmaurin06@gmail.com;0;attente
+127;PERRIN ;Esther;0672825722;esther.perrin.10@icloud.com;0;attente
+128;HUCHET;Madeleine sophie ;0688682782;madso.huchet@gmail.com;0;attente
+129;GRIZARD ;Quentin;0000000000;ppp@gmail.com;0;attente
+130;LéON-SUBERBIELLE;Violette ;0768222267;violette.leonsub@gmail.com;0;attente
+131;PRALUS;Pierre;0608501782;pierre.pralus@etu.unilasalle.fr;0;attente
+132;FARRET ;Morgane ;0771260224;morgane.farreticloud.com@gmail.com;0;attente
+133;FORSTER ;Béa ;0627264072;bbea.forster@gmail.com;0;attente
+134;CINOTTI;Louis-paul;0608999298;lp.cinotti@gmail.com;0;attente
+135;MEYER;Clotilde;0670994013;clo.meyer03@gmail.com;1;1

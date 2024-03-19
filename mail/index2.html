@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+
+</html>
+<style>
+.justifier{
+    text-align:center;
+}
+.fond_clair{ /*ancien .couleur*/
+    background-color: #f2b035;
+}
+.fond_fonce{
+    background-color: #2e2e2e;
+
+}
+.ecriture_claire{
+    color : #F2B035;
+}
+.ecriture_fonce, header, footer{
+    color: #2e2e2e;
+}
+.container{
+    display: flex;
+}
+
+.paragraphe{
+    padding-left: 8%;
+    padding-right: 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.fond_chevalier{
+    background-image:url("https://augustinlevasseur.fr/image/fond_chevalier.png");
+}
+
+
+h1{
+    text-align:center;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color:#dee2e6;
+
+}
+p{
+    font-size: 100%;
+}
+
+.intro{
+    height: 100vh;
+    width : 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    
+}
+
+.attache{
+    font-family: 'Satisfy', cursive;
+}
+h2{
+    padding: 0%;
+    margin: 0%;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.btn-index{
+    margin : 1rem;
+}
+
+html, body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+ 
+}
+.main{
+    padding: 0,0,10%,10%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .intro{
+        width: auto;
+    }
+
+}
+
+</style>
+
+<div class="main">
+
+
+<div class="fond_fonce ecriture_claire paragraphe fond_chevalier" style="padding-bottom: 4rem;">
+<div>
+    <h1>ANNIVERSAIRES</h1>
+        <br/>
+        <p class="justifier">
+        <span style="color:#dee2e6; text-decoration: underline;">du 30 Juin au 2 Juillet</span> <br><br>   
+        Vous vous êtes inscrit dans la catégorie des personnes ne connaissant pas leur disponibilité, et nous vous remercions pour votre réactivité !!<br/>
+        Dès que vous avez plus de visibilité sur votre fin d'année, rendez-vous sur le site pour repasser dans la catégorie adéquat !<br/><br/>
+        
+        Nous vous attendons avec impatience dès Vendredi 30 juin à 17h à Etrelles... <br/><br/>
+        
+        N'hésitez pas à envoyer vos photos dossier, vidéos à Hombeline (
+            <a style="color:hsl(199, 93%, 42%); text-decoration: none;" href='mailto:hombeline.lev@gmail.com' target ="_blank">hombeline.lev@gmail.com</a>
+        ).<br/>
+        Elles seront diffusées pendant le Weekend<p>
+
+        <div class="container btn-container" style="justify-content:center;text-align:center; margin-top: 2rem; ">
+            <a href="https://augustinlevasseur.fr/controller/inscription.php" class="fond_clair ecriture_fonce" style="
+            font-size: inherit;
+            margin : 1rem 0rem 1rem 0rem;
+            padding: 0.75rem 1rem 0.75rem 1rem;
+            border-radius: 5px 5px;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            ">
+            Je peux venir finalement !</a>
+        </div>
+</div> 
+    
+</div>
+
+</div>
+

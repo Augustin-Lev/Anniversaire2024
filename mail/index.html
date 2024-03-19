@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+
+</html>
+<style>
+.justifier{
+    text-align:center;
+}
+.fond_clair{ /*ancien .couleur*/
+    background-color: #f2b035;
+}
+.fond_fonce{
+    background-color: #2e2e2e;
+
+}
+.ecriture_claire{
+    color : #F2B035;
+}
+.ecriture_fonce, header, footer{
+    color: #2e2e2e;
+}
+.container{
+    display: flex;
+}
+
+.paragraphe{
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+a{
+    color:hsl(199, 93%, 42%);
+    text-decoration: none;
+}
+.fond_chevalier{
+    background-image:url("https://augustinlevasseur.fr/image/fond_chevalier.png");
+}
+.fond_bouclier{
+    background-image:url("https://augustinlevasseur.fr/image/fond_bouclier.png");
+
+}
+.fond_lune{
+    background-image:url("https://augustinlevasseur.fr/image/fond_lune.png");
+}
+
+h1{
+    text-align:center;
+    margin: 8rem 20% 0% 20%;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    
+
+}
+p{
+    font-size: 100%;
+}
+.titrePrincipal>h1{
+    font-size: 6rem;
+}
+.titrePrincipal{
+    position: absolute ;
+    color:#dee2e6;
+    
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+
+
+.intro{
+    height: 100vh;
+    width : 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    
+}
+
+.attache{
+    font-family: 'Satisfy', cursive;
+}
+h2{
+    padding: 0%;
+    margin: 0%;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+
+.btn, .btn-index{
+    font-size: inherit;
+    margin : 1rem 0rem 1rem 0rem;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    border-radius: 5px 5px;
+    
+    border: none;
+    text-align: center;
+}
+.btn-index{
+    margin : 1rem;
+}
+
+html, body{
+    padding: 0%;
+    margin: 0%;
+    height:100%;
+    width: 100%;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    background-color: #F2B035; 
+  
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+ 
+}
+.main{
+    padding: 0,0,10%,10%;
+}
+
+
+@media screen and (max-width: 1000px) {
+   
+    .titrePrincipal>h1{
+        font-size: 10vw;
+    }
+    .attache{
+        font-size: 4vw;
+    }
+    h1{
+        margin: 0%;
+        font-size: 10vw; 
+    }
+    .intro{
+        width: auto;
+    }
+
+}
+
+</style>
+
+<div class="main">
+
+<div class="fond_fonce ecriture_claire paragraphe fond_bouclier" style="padding-bottom: 4rem;">
+    <div class="titrePrincipal">
+
+                    <h1>ANNIVERSAIRES</h1>
+                    <p class="attache">Marie et Augustin</p>   
+         </div>
+</div>  
+
+
+<div class="fond_clair ecriture_fonce intro">
+    <h1 style="margin:0">Du Vendredi 30 Juin, 17h </h1>
+    <h2 class="attache">au</h2>
+    <h1 style="margin:0">Dimanche 2 Juillet 15h</h1>
+</div>
+
+
+<div class="fond_fonce ecriture_claire paragraphe fond_chevalier" style="padding-bottom: 4rem;">
+<div>
+    <h1>Rappel</h1>
+        <br/>
+        <p class="justifier">Vous vous êtes inscrit dans la catégorie des personnes ne connaissant pas leur disponibilité, et nous vous remercions pour votre réactivité.<br/><br/>
+        Dès que vous avez plus de visibilité sur votre fin d'année, rendez-vous sur le site pour repasser dans la catégorie adéquat !<br/><br/>
+        
+        N'hésitez pas à envoyer vos photos dossier, vidéos à Hombeline (<a href='mailto:hombeline.lev@gmail.com' target ="_blank">hombeline.lev@gmail.com</a>).</p>
+
+        <div class="container btn-container" style="justify-content:center">
+            <a href="https://augustinlevasseur.fr/controller/inscription.php" class="btn-index fond_clair ecriture_fonce">Je peux venir finalement !</a>
+        </div>
+</div> 
+    
+</div>
+
+</div>
+
