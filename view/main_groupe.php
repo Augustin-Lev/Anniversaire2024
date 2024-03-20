@@ -21,7 +21,7 @@
             </p>
         </div>
         <div style="margin-bottom:5%">
-            <a id='btn-snap' class="btn fond_clair ecriture_fonce"  href ="https://t.snapchat.com/xfTL9BOP" target="_blank" >Rejoindre Snap</a>
+            <a id='btn-snap' class="btn fond_clair ecriture_fonce"  href ="https://chat.whatsapp.com/G7gulNK2oA06YVN6aSbqf8" target="_blank" >Rejoindre le groupe</a>
         </div>
         
     </div>

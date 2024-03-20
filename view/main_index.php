@@ -121,15 +121,6 @@
         </div>
 
 
-        <div class="fond_clair ecriture_fonce paragraphe">
-            <div class="carte ecran">
-                <h2>Carte</h2>
-                <br/>
-                <img width=100% src="../image/carte.png" alt="carte Umap montrant l'emplacement prévu des infrastructures">
-                <a href=http://umap.openstreetmap.fr/fr/map/wep_726652#18/48.56136/3.86975 target="_blank" class="btn fond_fonce ecriture_claire"> Lien Umap </a>
-            </div>
-        </div>
-
         <div class="fond_fonce ecriture_claire paragraphe fond_chevalier">
             <div class="carte" >
             <h2 id="Planning">Planning</h2>
@@ -259,6 +250,15 @@
                 <br/>
                 <br/>
                 <!--<img width=100% src="image/medieval.png">-->
+            </div>
+        </div>
+        
+        <div class="fond_clair ecriture_fonce paragraphe">
+            <div class="carte ecran">
+                <h2>Carte</h2>
+                <br/>
+                <img width=100% src="../image/carte.png" alt="carte Umap montrant l'emplacement prévu des infrastructures">
+                <a href=http://umap.openstreetmap.fr/fr/map/wep_726652#18/48.56136/3.86975 target="_blank" class="btn fond_fonce ecriture_claire"> Lien Umap </a>
             </div>
         </div>
             
