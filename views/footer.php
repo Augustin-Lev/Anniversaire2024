@@ -55,7 +55,7 @@
         </div>
                   
         <div  style="align-items:center"> 
-            <img src='../image/logo4000.svg' width=70em alt='logo Augustin'><br/>
+            <img src='<?php echo BASE_URL;?>/views/image/logo4000.svg' width=70em alt='logo Augustin'><br/>
             <p>Webmaster : Augustin Levasseur</p>
         </div>
                 

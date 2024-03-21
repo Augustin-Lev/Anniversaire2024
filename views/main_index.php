@@ -69,19 +69,20 @@
                 Si vous avez déjà pu venir l'année dernière, nous vous garantissons que cette année, sera encore plus folle !
                 Il vous est cepandant demandé d'amener de quoi vous hydrater (exemple : bière)    
             </p>
-
+            <!--
                 <div class="container btn-container" style="justify-content:center">
                     <a href="inscription.php" class="btn-index fond_clair ecriture_fonce">Inscription</a>
                     <a href="consigne.php" class="btn-index fond_clair ecriture_fonce">Consignes</a>
                     <a href="invites.php" class="btn-index fond_clair ecriture_fonce">Inscrits</a>
                 </div>
+            -->
             </div>
         </div>
 
 
         <div class="fond_clair ecriture_fonce image-carte">
             <div class="index-cote-carte" >
-                <img width = 100% src="../image/voiture.jpg" alt="image de la carte présentant l'arrivée des voitures">
+                <img width = 100% src="<?php echo BASE_URL;?>/views/image/voiture.jpg" alt="image de la carte présentant l'arrivée des voitures">
             </div>
             
             <div class="index-cote-carte">
@@ -110,12 +111,12 @@
                     <li> <p>Pour les covoiturage, vous organiser via l'excel suivant</p></li>
                 </ul>
                 <div class="container btn-container" style="justify-content:center">
-                    <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:x:/g/personal/augustin_levasseur_etu_unilasalle_fr/EdZfvyV1DnJIpe9u_z5wRCUBUkTIiInrb8IvGJLB8ZnSEA?e=kOfuXP" class="btn-index fond_fonce ecriture_claire">Covoiturage</a>
+                    <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KR4ZQU6QpXiDZF3VZB60Bl4e2SJNC0eHgtIqVwwfhl4/edit?usp=sharing" class="btn-index fond_fonce ecriture_claire">Covoiturage</a>
                </div>
 
             </div>
             <div class="index-cote-carte" >
-                <img width = 100% src="../image/ad+guss.jpg" alt="image de la carte présentant l'arrivée des voitures">
+                <img width = 100% src="<?php echo BASE_URL;?>/views/image/ad+guss.jpg" alt="image de la carte présentant l'arrivée des voitures">
             </div>
             
         </div>
@@ -223,7 +224,7 @@
 
         <div class="fond_clair ecriture_fonce image-carte">
             <div class="index-cote-carte" >
-                <img width = 100% src="../image/carte3.png" alt="image de la carte présentant l'arrivée des voitures">
+                <img width = 100% src="<?php echo BASE_URL;?>/views/image/carte3.png" alt="image de la carte présentant l'arrivée des voitures">
             </div>
             
             <div class="index-cote-carte">
@@ -257,7 +258,7 @@
             <div class="carte ecran">
                 <h2>Carte</h2>
                 <br/>
-                <img width=100% src="../image/carte.png" alt="carte Umap montrant l'emplacement prévu des infrastructures">
+                <img width=100% src="<?php echo BASE_URL;?>/views/image/carte.png" alt="carte Umap montrant l'emplacement prévu des infrastructures">
                 <a href=http://umap.openstreetmap.fr/fr/map/wep_726652#18/48.56136/3.86975 target="_blank" class="btn fond_fonce ecriture_claire"> Lien Umap </a>
             </div>
         </div>

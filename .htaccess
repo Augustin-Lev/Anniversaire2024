@@ -1,4 +1,2 @@
-
-# HTID:20405092: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
-# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:20405092:
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php
