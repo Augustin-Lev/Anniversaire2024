@@ -23,8 +23,8 @@ fclose($log);
 // inclusion des classes
 require_once 'models/Router.php';
 require_once 'controllers/HomeController.php';
-
-
+require_once 'controllers/GroupeController.php';
+require_once 'controllers/OrganisationController.php';
 
 //instanciation des classes
 $router = new Router();
@@ -35,6 +35,14 @@ $router = new Router();
 //Définition des routes 
 $router->addRoute("GET",BASE_URL.'/','HomeController','home');
 $router->addRoute("POST",BASE_URL.'/','HomeController','home');
+$router->addRoute("GET",BASE_URL.'/groupe','GroupeController','index');
+$router->addRoute("POST",BASE_URL.'/groupe','GroupeController','index');
+$router->addRoute("GET",BASE_URL.'/organisation','OrganisationController','index');
+$router->addRoute("POST",BASE_URL.'/organisation','OrganisationController','index');
+$router->addRoute("GET",BASE_URL.'/jesuisorganisateur','OrganisationController','staff');
+$router->addRoute("POST",BASE_URL.'/jesuisorganisateur','OrganisationController','staff');
+
+
 
 
 $method = $_SERVER['REQUEST_METHOD'];

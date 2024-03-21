@@ -18,24 +18,24 @@
     </div> 
 
     <div class="orgaParent">
-        <img src= "../image/1.jpg" alt='image pour orga'>
-        <img src= "../image/2.jpg" alt='image pour orga'>
-        <img src= "../image/3.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/1.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/2.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/3.jpg" alt='image pour orga'>
     </div>
     <div class="orgaParent">
-        <img src= "../image/4.jpg" alt='image pour orga'>
-        <img src= "../image/5.jpg" alt='image pour orga'>
-        <img src= "../image/6.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/4.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/5.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/6.jpg" alt='image pour orga'>
     </div>
     <div class="orgaParent">
-        <img src= "../image/7.jpg" alt='image pour orga'>
-        <img src= "../image/8.jpg" alt='image pour orga'>
-        <img src= "../image/9.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/7.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/8.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/9.jpg" alt='image pour orga'>
     </div>
     <div class="orgaParent">
-        <img src= "../image/10.jpg" alt='image pour orga'>
-        <img src= "../image/11.jpg" alt='image pour orga'>
-        <img src= "../image/12.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/10.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/11.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/12.jpg" alt='image pour orga'>
     </div>
 
 </main>

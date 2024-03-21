@@ -1,6 +1,6 @@
 <header>
     <nav class="container fond_clair ordinateur "> 
-        <a class="logo " href="<?php echo BASE_URL;?>">
+        <a class="logo " href="<?php echo BASE_URL;?>/">
             <div class="tel">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
                     <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
@@ -15,8 +15,8 @@
         </a>                   
         
         <ul class="childTwo ">
-            <li class="<?php echo BASE_URL;?>">
-                <a href="" class="nav-link text-dark">MENU</a>
+            <li class="">
+                <a href="<?php echo BASE_URL;?>/" class="nav-link text-dark">MENU</a>
             </li>
             <!-- 
             <li class="">
@@ -36,7 +36,7 @@
             <?php if(isset($_COOKIE["organisateur"]) || (isset($_COOKIE["organisateur"])&& $_COOKIE["organisation"]== 1)) {
             echo '
             <li class="">
-                 <a href="organisation.php" class="nav-link text-dark">Orga</a>
+                 <a href="'.BASE_URL.'\organisation" class="nav-link text-dark">Orga</a>
              </li>';
 
             }?>     
