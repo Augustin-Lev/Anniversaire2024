@@ -16,7 +16,7 @@ class OrganisationController {
 
     public function staff(){
         setcookie("organisateur","1");
-        header("Location:".BASE_URL);
+        header("Location:".BASE_URL."/");
     }
 
 }

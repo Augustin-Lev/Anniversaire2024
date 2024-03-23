@@ -33,17 +33,30 @@
             <li class="">
                 <a href="<?php echo BASE_URL;?>/groupe" class="nav-link text-dark">Groupe whatsapp</a>
             </li>
+        
+
             <?php if(isset($_COOKIE["organisateur"]) || (isset($_COOKIE["organisateur"])&& $_COOKIE["organisation"]== 1)) {
             echo '
             <li class="">
                  <a href="'.BASE_URL.'\organisation" class="nav-link text-dark">Orga</a>
              </li>';
 
-            }?>     
+            }?> 
+
+             
                
         </ul>
-       
+        <div class=child-three>
+        <a class=" btn-login" href="<?php echo BASE_URL;?>/connexion">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="black" height=auto class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+            </svg>
+        </a>
+        </div>
+
     </nav>
+
+
 
     <nav class="container fond_clair telephone"> 
         <div class="bandeau-tel">

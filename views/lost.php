@@ -3,8 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="<?php echo BASE_URL;?>\views/style\stylesheet.css">
-        <link rel="stylesheet" href="<?php echo BASE_URL;?>\views/style\stylesheet-tel.css">
-        <link rel="stylesheet" href="<?php echo BASE_URL;?>\views/style\carroussel.css">
         
         <title> Anniversaire Levasseur</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +18,7 @@
             <div class="motParrot motLost" >
                 <p>Cette page n'existe pas, redirigez-vous vers une page accessible ;)
                 </p>
-                <a href="<?php echo BASE_URL;  ?>/" class="boutton BtnLost">Menu</a>
+                <a href="<?php echo BASE_URL;  ?>/" class="btn-index fond_clair ecriture_fonce BtnLost">Menu</a>
             </div>
         </div>
     </body>

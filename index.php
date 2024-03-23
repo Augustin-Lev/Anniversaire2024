@@ -25,6 +25,7 @@ require_once 'models/Router.php';
 require_once 'controllers/HomeController.php';
 require_once 'controllers/GroupeController.php';
 require_once 'controllers/OrganisationController.php';
+require_once 'controllers/LoginController.php';
 
 //instanciation des classes
 $router = new Router();
@@ -41,8 +42,10 @@ $router->addRoute("GET",BASE_URL.'/organisation','OrganisationController','index
 $router->addRoute("POST",BASE_URL.'/organisation','OrganisationController','index');
 $router->addRoute("GET",BASE_URL.'/jesuisorganisateur','OrganisationController','staff');
 $router->addRoute("POST",BASE_URL.'/jesuisorganisateur','OrganisationController','staff');
-
-
+$router->addRoute("GET",BASE_URL.'/connexion','LoginController','index');
+$router->addRoute("POST",BASE_URL.'/connexion','LoginController','index');
+$router->addRoute("GET",BASE_URL.'/connexionSubmited','LoginController','connexion');
+$router->addRoute("POST",BASE_URL.'/connexionSubmited','LoginController','connexion');
 
 
 $method = $_SERVER['REQUEST_METHOD'];
