@@ -22,40 +22,7 @@
             
         </div>  
 
-        <div class="intro">
-            <div class= "tel-c-fonce">
-                <div>
-                    <h1 class="age">
-                        18
-                    </h1>
-    
-                </div>
-                
-                <p>Adrien</p>
-            </div>
-
-            <div class= "tel-c-clair">
-                <div>
-                    <h1 class="age">
-                        20
-                    </h1>
-    
-                </div>
-                
-                <p>Marie</p>
-            </div>
-
-            <div class= "tel-c-fonce">
-                <div>
-                    <h1 class="age">
-                        21
-                    </h1>
-    
-                </div>
-                
-                <p>Augustin</p>
-            </div>
-        </div>
+      
         
 
         <div class="fond_fonce ecriture_claire paragraphe fond_bouclier" style="padding-bottom: 4rem;">
@@ -92,6 +59,8 @@
                     <li> <p>une tente + duvet + matelas</p></li>
                     <li> <p>des habits d'été (short) + basquettes</p></li>
                     <li> <p>Une tenu qui ne crain rien (treilli / pantalon recommandé) + basquettes qui ne craigent pas</p></li>
+                    <li> <p>Lampe torche pour la chasse à l'homme</p></li>
+             
                 </ul>
 
             </div>
@@ -262,17 +231,6 @@
                 <a href=http://umap.openstreetmap.fr/fr/map/wep_726652#18/48.56136/3.86975 target="_blank" class="btn fond_fonce ecriture_claire"> Lien Umap </a>
             </div>
         </div>
-        <div class="fond_fonce ecriture_claire paragraphe fond_bouclier" style="padding-bottom: 4rem;">
-            
-            <div>
-                
-                <h2>Connexion</h2>
-                <br/>
-                <p class="justifier">Veuillez vous connecter pour acceder aux informations de l'anniversaire. Votre numéro de téléphone sera utilisé afin de mettre à jour les contacts Levasseurs. <br/><br/><br/><br/>
-                <a href="<?php echo BASE_URL;?>/connexion " class="btn fond_clair ecriture_fonce">Se connecter</a>
-            </p>                
-            </div>
-             
-        </div>
+        
             
     </main>

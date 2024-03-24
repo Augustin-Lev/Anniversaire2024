@@ -1,11 +1,5 @@
 <?php
 
-try {
-    $PDO = new PDO('mysql:host=localhost;dbname=u734868843_anniversaire', 'u734868843_augustin', '4a:P:N6u:LKZ');
-}catch(PDOExeption $e){
-    echo 'Erreur lors de la connection à la base de donées';
-}
-
 
 function compteurPresence($PDO){
     $compteur = 0;
@@ -16,6 +10,7 @@ function compteurPresence($PDO){
 }
 
 function echangeur($PDO){
+    
     foreach ($PDO-> query('SELECT nom, prenom, presence FROM invites', PDO::FETCH_ASSOC) as $user){
         //var_dump($user);
         if ($user['nom'] === $_POST['nom'] &&
@@ -69,41 +64,39 @@ function supprimerCategorieDifferente($PDO,$nom,$prenom,$telephone,$email,$organ
     }
 }
 
-function insertionBase($PDO,$nom,$prenom,$telephone,$email,$organisation,$viens){
-    $sql ='INSERT INTO invites (nom, prenom, telephone, email, organisation, presence) VALUES ( :nom, :prenom, :tel, :email, :organisation, :presence);';
+function insertionBase($nom,$prenom,$telephone){
+    echo 'mysql:host=localhost;dbname='.dbname.UserDB.passwordDB;
+    try {
+        $PDO = new PDO('mysql:host=localhost;dbname='.dbname, UserDB, passwordDB);
+    }catch(PDOExeption $e){
+        echo 'Erreur lors de la connection à la base de donées';
+    }
+
+    foreach ($PDO-> query('SELECT tel FROM Guest', PDO::FETCH_ASSOC) as $user){
+        if ($user['tel'] === $telephone){
+            if(headers_sent()){
+                echo '<h1> Wo, arrête, tu fais quoi ?!?</h1>';
+            }
+            else{
+                $sql ='DELETE FROM `Guest` WHERE `Guest`.`tel` LIKE :telephone';
+                $pdoStatement= $PDO->prepare($sql);
+                $pdoStatement->bindValue(':telephone',$telephone,PDO::PARAM_STR);
+                if($pdoStatement -> execute()) {                        
+                }
+                else{
+                    echo  'ERREUR au niveau de la suppression du nom de la section anterieure';
+                }  
+            }                    
+        }
+    }
+
+    $sql ='INSERT INTO Guest (nom, prenom, tel) VALUES ( :nom, :prenom, :tel);';
     $pdoStatement= $PDO->prepare($sql);
     $pdoStatement->bindValue(':prenom',$prenom, PDO::PARAM_STR);
     $pdoStatement->bindValue(':nom',$nom,PDO::PARAM_STR);
     $pdoStatement->bindValue(':tel',$telephone,PDO::PARAM_STR);
-    $pdoStatement->bindValue(':email',$email,PDO::PARAM_STR);
-    $pdoStatement->bindValue(':organisation',$organisation,PDO::PARAM_STR);
-    $pdoStatement->bindValue(':presence',$viens,PDO::PARAM_STR);
+
     if($pdoStatement -> execute()) { 
-            
-        if($organisation == "10"){
-            $message = 
-            '<html>
-            <head>
-                <title>Nouvel Organisateur !!</title>
-            </head>
-            <body>
-                <h1>Nouvel Organisateur !! </h1>
-                <p>'. $prenom.' '.$nom.' souhaite faire partie de l\'organisation de notre anniversaire !</p>
-               
-                <p>Rajoute cette personne au groupe !</p>
-                
-                <p>Tel : '.$telephone.'</p>
-            </body>
-            </html>';
-            
-            $headerMail ='From: '.$email . "\r\n" .
-            'MIME-Version: 1.0'. "\r\n" .
-           'Content-type: text/html; charset=iso-8859-1';
-            if(mail('augustin.levasseur@etu.unilasalle.fr,marie.levasseur@etu.unilasalle.fr','Organisation Anniversaire',$message,$headerMail)){
-            }else{
-                echo'Merci de prévenir Marie ou Augustin par mail ;)';
-            }
-        }
         return "1";                
     }
     return "0";

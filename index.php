@@ -14,14 +14,22 @@ while (($line = fgetcsv($log)) !== FALSE) {
     // var_dump($line);
     if ($line[0] != "NameDB"){
         define("BASE_URL",$line[7]); 
+        define("dbname",$line[0]); 
+        define("UserDB",$line[1]); 
+        define("passwordDB",$line[2]); 
     }
 }
 fclose($log);
 
 
 
+
+
 // inclusion des classes
 require_once 'models/Router.php';
+require_once 'models/baseDonnees.php';
+require_once 'models/cookies.php';
+
 require_once 'controllers/HomeController.php';
 require_once 'controllers/GroupeController.php';
 require_once 'controllers/OrganisationController.php';
@@ -46,6 +54,11 @@ $router->addRoute("GET",BASE_URL.'/connexion','LoginController','index');
 $router->addRoute("POST",BASE_URL.'/connexion','LoginController','index');
 $router->addRoute("GET",BASE_URL.'/connexionSubmited','LoginController','connexion');
 $router->addRoute("POST",BASE_URL.'/connexionSubmited','LoginController','connexion');
+$router->addRoute("GET",BASE_URL.'/menu','HomeController','loaded');
+$router->addRoute("POST",BASE_URL.'/menu','HomeController','loaded');
+$router->addRoute("GET",BASE_URL.'/deconexion','LoginController','deconexion');
+$router->addRoute("POST",BASE_URL.'/deconexion','LoginController','deconexion');
+
 
 
 $method = $_SERVER['REQUEST_METHOD'];
@@ -65,7 +78,5 @@ if ($handler === NULL){
     $action = $handler["action"];
     $controller->$action();
 }
-
-
 }
 ?>

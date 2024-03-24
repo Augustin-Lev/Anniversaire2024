@@ -14,17 +14,27 @@ class LoginController {
         require "views/footer.php";
     }
     public function connexion(){
-        $header = [
-            "javascript"=>0,
-            "titre"=>"Anniversaire 2024",
-            "content"=>"Eh oui, on remet ça ! 
-            "]; //necessaire au header de model
+        var_dump($_POST);
+        insertionBase($_POST["nom"],$_POST["prenom"],$_POST["tel"]);
+        cookies();
+        session_start();
+        $_SESSION["login"] = 1;
+        $_SESSION["nom"] = $_POST["nom"];
+        $_SESSION["prénom"] = $_POST["prenom"];
 
-        require "models/Header.php";
-        require "views/header.php";
-        require_once "views/main_home.php";
-        require "views/footer.php";
+        header('Location:'.BASE_URL.'/menu');
     }
+
+    public function deconexion(){
+        $_SESSION["login"] = 0;
+        $_SESSION["nom"] = "";
+        $_SESSION["prénom"] = "";
+
+      
+
+        header('Location:'.BASE_URL.'/');
+    }
+
 
 }
 ?>

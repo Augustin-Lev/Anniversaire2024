@@ -61,6 +61,9 @@
         <tr><td>
             <input <?php if(isset($prenom)){ echo 'value = "'.$prenom.'"'; } ?> class="champ" required=" " type="text" id="prenom" name="prenom" placeholder="Godefroy" maxlength="30">
         </td></tr>
+        <tr><td>
+            <a href="<?php echo BASE_URL;?>/deconexion">Se déconnecter</a>
+        </td></tr>
  
       
         </table> 
