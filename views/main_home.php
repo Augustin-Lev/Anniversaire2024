@@ -12,8 +12,10 @@
 
         <div id="top" class="fond_clair">
             <div class="titrePrincipal">
-                <h1>VENEZ FÊTER NOS ANNIVERSAIRES !!</h1>
-                <p class="attache">Levasseur</p>
+            
+                <h1>31 mai au 2 juin</h1>
+                <h3 class="attache">Anniversaire Levasseur</h3>
+                
             </div>
             <div class="image">
               
