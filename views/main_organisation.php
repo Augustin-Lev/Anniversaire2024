@@ -18,29 +18,29 @@
     </div> 
 
     <div class="orgaParent">
-        <img src= "<?php echo BASE_URL;?>/views/image/1.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/2.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/3.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/1.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/2.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/3.pgn" alt='image pour orga'>
     </div>
     <div class="orgaParent">
-        <img src= "<?php echo BASE_URL;?>/views/image/4.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/5.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/6.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/4.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/5.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/6.pgn" alt='image pour orga'>
     </div>
     <div class="orgaParent">
-        <img src= "<?php echo BASE_URL;?>/views/image/7.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/8.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/9.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/7.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/8.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/9.pgn" alt='image pour orga'>
     </div>
     <div class="orgaParent">
-        <img src= "<?php echo BASE_URL;?>/views/image/10.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/11.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/12.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/10.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/11.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/12.pgn" alt='image pour orga'>
     </div>
     <div class="orgaParent">
-        <img src= "<?php echo BASE_URL;?>/views/image/13.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/14.jpg" alt='image pour orga'>
-        <img src= "<?php echo BASE_URL;?>/views/image/15.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/13.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/14.pgn" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/15.pgn" alt='image pour orga'>
     </div>
 
 </main>

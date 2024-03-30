@@ -83,8 +83,8 @@
                     <li> <p>Pour les covoiturages, vous organiser via l'excel suivant</p></li>
                 </ul>
                 <div class="container btn-container" style="justify-content:center">
-                    <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KR4ZQU6QpXiDZF3VZB60Bl4e2SJNC0eHgtIqVwwfhl4/edit?usp=sharing" class="btn-index fond_fonce ecriture_claire">Covoiturage</a>
-               </div>
+                    <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KR4ZQU6QpXiDZF3VZB60Bl4e2SJNC0eHgtIqVwwfhl4/edit?usp=sharing" class="btn-index fond_fonce ecriture_claire">Covoiturage</a>                  
+                </div>
 
             </div>
             <div class="index-cote-carte" >
