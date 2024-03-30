@@ -50,7 +50,7 @@
                 <ul >
                     <li> <p>une tente + duvet + matelas</p></li>
                     <li> <p>des habits d'été (short) + baskets</p></li>
-                    <li> <p>Une tenue qui ne crains rien (treilli / pantalon recommandé) + baskets qui ne craignent pas</p></li>
+                    <li> <p>Une tenue qui ne craint rien (treilli / pantalon recommandé) + baskets qui ne craignent pas</p></li>
                     <li> <p>Lampe torche pour la chasse à l'Homme</p></li>
                     <li> <p>Des bières</p></li>
              
