@@ -37,6 +37,11 @@
         <img src= "<?php echo BASE_URL;?>/views/image/11.jpg" alt='image pour orga'>
         <img src= "<?php echo BASE_URL;?>/views/image/12.jpg" alt='image pour orga'>
     </div>
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/13.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/14.jpg" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/15.jpg" alt='image pour orga'>
+    </div>
 
 </main>
 

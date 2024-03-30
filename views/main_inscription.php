@@ -45,21 +45,21 @@
             <label for="tel">Téléphone</label>
         </td></tr>
         <tr><td>
-            <input <?php if(isset($tel)){ echo 'value = "'.$tel.'"'; } ?> class="champ" type="tel" id="tel" name="tel" pattern='[0-9]{10}'required=" " placeholder="0766540330">
+            <input <?php if(isset($_COOKIE['tel'])){ echo 'value = "'.$_COOKIE['tel'].'"'; } ?> class="champ" type="tel" id="tel" name="tel" pattern='[0-9]{10}'required=" " placeholder="0766540330">
         </td></tr>
 
         <tr><td>
             <label for="nom" >Nom</label>
         </td></tr>
         <tr><td>
-            <input <?php if(isset($nom)){ echo 'value = "'.$nom.'"'; } ?> class="champ" required=" " type="text" id="nom" name="nom" value="" placeholder="de Montmirail" maxlength="32">
+            <input <?php if(isset($_COOKIE['nom'])){ echo 'value = "'.$_COOKIE['nom'].'"'; } ?> class="champ" required=" " type="text" id="nom" name="nom" value="" placeholder="de Montmirail" maxlength="32">
         </td></tr>
 
         <tr><td>
             <label for="prenom">Prénom</label>
         </td></tr>
         <tr><td>
-            <input <?php if(isset($prenom)){ echo 'value = "'.$prenom.'"'; } ?> class="champ" required=" " type="text" id="prenom" name="prenom" placeholder="Godefroy" maxlength="30">
+            <input <?php if(isset($_COOKIE['prenom'])){ echo 'value = "'.$_COOKIE['prenom'].'"'; } ?> class="champ" required=" " type="text" id="prenom" name="prenom" placeholder="Godefroy" maxlength="30">
         </td></tr>
         <tr><td>
             <a href="<?php echo BASE_URL;?>/deconexion">Se déconnecter</a>
@@ -68,7 +68,8 @@
       
         </table> 
         <div class="container btn-container">
-            <button class="btn-index fond_clair ecriture_fonce" type="submit" name = "inscription" value ="1">S'inscrire</button>
+            
+            <button class="btn-index fond_clair ecriture_fonce" type="submit" name = "inscription" value ="1"><?php if(isset($_COOKIE['prenom'])){ echo 'Se connecter'; }else{echo "S'inscrire";} ?></button>
         </div>
     </form>
     <script>

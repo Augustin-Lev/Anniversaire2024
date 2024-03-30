@@ -14,7 +14,7 @@
             <div class="titrePrincipal">
             
                 <h1>31 mai au 2 juin</h1>
-                <h3 class="attache">Anniversaire Levasseur</h3>
+                <h3 class="attache">Anniversaires Levasseur</h3>
                 
             </div>
             <div class="image">
