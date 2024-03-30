@@ -84,7 +84,7 @@
     <nav class="container fond_clair telephone"> 
         <div class="bandeau-tel">
             <p class = "droite">
-                <a href="index.php" class="ecriture_fonce">MENU</a>
+                <a href="<?php echo BASE_URL;?>/menu" class="ecriture_fonce">MENU</a>
             </p>
             <div class="survole parent">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="pointsHeader gauche bi bi-three-dots-vertical" viewBox="0 0 16 16">
@@ -95,27 +95,17 @@
                     <table>
                         <tr>
                             <td class="caseHeader">
-                                <a href="index.php" class="nav-link text-dark">Présentation</a>
+                                <a href="<?php echo BASE_URL;?>/menu" class="nav-link text-dark">Menu</a>
                             </td>
                         </tr>
                         <tr>
                             <td class="caseHeader">
-                                <a href="inscription.php" class="nav-link text-dark">Inscription</a>
+                                <a href="<?php echo BASE_URL;?>/connexion" class="nav-link text-dark">Connexion</a>
                             </td>
                         </tr>
                         <tr>
                             <td class="caseHeader">
-                                <a href="consigne.php" class="nav-link text-dark active">Consignes</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="caseHeader">
-                                <a href="invites.php" class="nav-link text-dark">Inscrits</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="caseHeader">
-                                <a href="groupe.php" class="nav-link text-dark">Groupe Snap</a>
+                                <a href="<?php echo BASE_URL;?>/groupe" class="nav-link text-dark">Groupe Whatsapp</a>
                             </td>
                         </tr>
                         <?php if(isset($_COOKIE["organisateur"]) || (isset($_COOKIE["organisateur"])&& $_COOKIE["organisation"]== 1)){

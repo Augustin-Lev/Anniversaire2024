@@ -24,10 +24,7 @@
             
         </div>  
 
-      
-        
-
-        <div class="fond_fonce ecriture_claire paragraphe fond_bouclier" style="padding-bottom: 4rem;">
+        <div class="introduction ecriture_claire">
             
             <div>
                 <h2>Introduction</h2>
@@ -38,13 +35,6 @@
                 Si vous avez déjà pu venir l'année dernière, nous vous garantissons que cette année, sera encore plus folle !
                 Il vous est cependant demandé d'amener de quoi vous hydrater (exemple : bière)    
             </p>
-            <!--
-                <div class="container btn-container" style="justify-content:center">
-                    <a href="inscription.php" class="btn-index fond_clair ecriture_fonce">Inscription</a>
-                    <a href="consigne.php" class="btn-index fond_clair ecriture_fonce">Consignes</a>
-                    <a href="invites.php" class="btn-index fond_clair ecriture_fonce">Inscrits</a>
-                </div>
-            -->
             </div>
         </div>
 
@@ -92,10 +82,29 @@
             </div>
             
         </div>
+        <div class="fond_clair ecriture_fonce image-carte">
+            <div class="index-cote-carte" >
+                <img width = 100% src="<?php echo BASE_URL;?>/views/image/maman.jpg" alt="image de la carte présentant l'arrivée des voitures">
+            </div>
+            
+            <div class="index-cote-carte">
+                <h2>Les Photos</h2>
+                <br/>
+                <p>N'hésitez pas à partager les photos lors de l'évènement, elles seront stockés sur google photo</p>
+                <div class="container btn-container" style="justify-content:center">
+                    <a target="_blank" href="https://photos.app.goo.gl/FeWY2bZgSDQP5mJJ6" class="btn-index fond_fonce ecriture_claire">2021</a>
+                    <a target="_blank" href="https://photos.app.goo.gl/N8DPPzutkapPgktz7" class="btn-index fond_fonce ecriture_claire">2023</a>             
+                    <a target="_blank" href="https://photos.app.goo.gl/3y4qPRGcSTSfEFn97" class="btn-index fond_fonce ecriture_claire">2024</a>                               
+                </div>  
+                
+                
 
+            </div>
+            
+        </div>
 
         <div class="fond_fonce ecriture_claire paragraphe fond_chevalier">
-            <div class="carte" >
+            <div >
             <h2 id="Planning">Planning</h2>
             <br/>
             <table class="table">
@@ -231,7 +240,7 @@
                 <h2>Carte</h2>
                 <br/>
                 <img width=100% src="<?php echo BASE_URL;?>/views/image/carte.png" alt="carte Umap montrant l'emplacement prévu des infrastructures">
-                <a href=http://umap.openstreetmap.fr/fr/map/wep_726652#18/48.56136/3.86975 target="_blank" class="btn fond_fonce ecriture_claire"> Lien Umap </a>
+                <a href=http://umap.openstreetmap.fr/fr/map/wep_726652#18/48.56136/3.86975 target="_blank" class="btn fond_fonce ecriture_claire btn-index"> Lien Umap </a>
             </div>
         </div>
         
