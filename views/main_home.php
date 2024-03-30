@@ -36,7 +36,7 @@
                 Pour fêter nos 18, 20 et 21 ans, nous vous invitons donc à la maison à Etrelles pour un week-end de folie ! <br/>
                 Au programme, camping, rigolade, grand jeu, barbecue et surtout revoir les coupaings  !!<br/>
                 Si vous avez déjà pu venir l'année dernière, nous vous garantissons que cette année, sera encore plus folle !
-                Il vous est cepandant demandé d'amener de quoi vous hydrater (exemple : bière)    
+                Il vous est cependant demandé d'amener de quoi vous hydrater (exemple : bière)    
             </p>
             <!--
                 <div class="container btn-container" style="justify-content:center">
@@ -59,9 +59,10 @@
                 <br/>
                 <ul >
                     <li> <p>une tente + duvet + matelas</p></li>
-                    <li> <p>des habits d'été (short) + basquettes</p></li>
-                    <li> <p>Une tenu qui ne crain rien (treilli / pantalon recommandé) + basquettes qui ne craigent pas</p></li>
-                    <li> <p>Lampe torche pour la chasse à l'homme</p></li>
+                    <li> <p>des habits d'été (short) + baskets</p></li>
+                    <li> <p>Une tenue qui ne crains rien (treilli / pantalon recommandé) + baskets qui ne craignent pas</p></li>
+                    <li> <p>Lampe torche pour la chasse à l'Homme</p></li>
+                    <li> <p>Des bières</p></li>
              
                 </ul>
 
@@ -79,7 +80,7 @@
 
                 <ul >
                     <li> <p>Gare la plus proche : Romilly sur seine</p></li>
-                    <li> <p>Pour les covoiturage, vous organiser via l'excel suivant</p></li>
+                    <li> <p>Pour les covoiturages, vous organiser via l'excel suivant</p></li>
                 </ul>
                 <div class="container btn-container" style="justify-content:center">
                     <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KR4ZQU6QpXiDZF3VZB60Bl4e2SJNC0eHgtIqVwwfhl4/edit?usp=sharing" class="btn-index fond_fonce ecriture_claire">Covoiturage</a>
