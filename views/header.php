@@ -81,13 +81,13 @@
 
 
 
-    <nav class="container fond_clair telephone"> 
+    <nav class="container fond_clair telephone menu-tel"> 
         <div class="bandeau-tel">
             <p class = "droite">
                 <a href="<?php echo BASE_URL;?>/menu" class="ecriture_fonce">MENU</a>
             </p>
             <div class="survole parent">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="pointsHeader gauche bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="pointsHeader gauche bi bi-three-dots-vertical" viewBox="0 0 16 16">
                     <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
                 </svg>
 

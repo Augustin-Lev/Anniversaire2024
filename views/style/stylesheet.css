@@ -666,8 +666,8 @@ footer svg{
     }
 
     .pointsHeader{ /*pour les 3 point du header*/
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     }
     .pointsHeader:hover{
@@ -734,7 +734,28 @@ footer svg{
     .introduction{
         width: 100vw;
     }
-
+    .intro{
+        flex-direction: column;
+    }
+    .intro>div{
+        width: 100%;
+    }
+    .index-ans{
+        top: -20vh;
+    }
+    .age{
+        font-size: 20vh;
+    }
+    .menu-tel>div{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-tel>div>p{
+        font-size: 20px;
+    }
 
 
     .image{
@@ -769,7 +790,7 @@ footer svg{
         margin-left: 10%;
         margin-right:10%;
         margin-bottom: 0%;
-        margin-top: 60px;
+        margin-top: 0;
         font-size: 10vw;
 
 
