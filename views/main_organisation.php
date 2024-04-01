@@ -15,7 +15,10 @@
         <a target="_blank" href="https://www.canva.com/design/DAF_hpN8KYY/K4Tqp8WSloffHLnqiXUI5Q/edit?utm_content=DAF_hpN8KYY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn-index fond_clair ecriture_fonce">Canva</a>
         
         <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:x:/g/personal/augustin_levasseur_etu_unilasalle_fr/EeriWQD22HtOjdos4xLadicBLrsvEBgtGa7i0sJTzGCH8A?e=Dthczl" class="btn-index fond_clair ecriture_fonce">Prévisions Budgetaire</a>
-    </div> 
+        
+        <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:f:/g/personal/augustin_levasseur_etu_unilasalle_fr/EqSNa-dYrSFDnai9qi6sGqYBdBRk4UMI-fX_nKNCimWjwg?e=GbqGWx" class="btn-index fond_clair ecriture_fonce">Musiques localisés</a>
+   
+    </div>  
 
     <div class="orgaParent">
         <img src= "<?php echo BASE_URL;?>/views/image/1.png" alt='image pour orga'>

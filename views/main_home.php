@@ -78,7 +78,7 @@
 
             </div>
             <div class="index-cote-carte" >
-                <img width = 100% src="<?php echo BASE_URL;?>/views/image/ad+guss.jpg" alt="image de la carte présentant l'arrivée des voitures">
+                <img width = 100% src="<?php echo BASE_URL;?>/views/image/tables.jpg" alt="image de la carte présentant l'arrivée des voitures">
             </div>
             
         </div>
@@ -102,6 +102,7 @@
             </div>
             
         </div>
+
 
         <div class="fond_fonce ecriture_claire paragraphe fond_chevalier">
             <div >
@@ -204,6 +205,18 @@
         </div>
 
         <div class="fond_clair ecriture_fonce image-carte">
+            <div class="index-cote-carte">
+                <h2>La SONO</h2>
+                <br/>
+                <p>N'oubliez pas d'amener votre clef USB si vous êtes DJ (Vinc, Colin ?), la mienne se chargera du reste<br/><br/>
+            </div>
+            <div class="index-cote-carte" >
+                <img width = 100% src="<?php echo BASE_URL;?>/views/image/DiskKokey.jpg" alt="image de la carte présentant l'arrivée des voitures">
+            </div>
+            
+        </div>
+
+        <div class="fond_clair ecriture_fonce image-carte">
             <div class="index-cote-carte" >
                 <img width = 100% src="<?php echo BASE_URL;?>/views/image/carte3.png" alt="image de la carte présentant l'arrivée des voitures">
             </div>
@@ -239,8 +252,7 @@
             <div class="carte ecran">
                 <h2>Carte</h2>
                 <br/>
-                <img width=100% src="<?php echo BASE_URL;?>/views/image/carte.png" alt="carte Umap montrant l'emplacement prévu des infrastructures">
-                <a href=http://umap.openstreetmap.fr/fr/map/wep_726652#18/48.56136/3.86975 target="_blank" class="btn fond_fonce ecriture_claire btn-index"> Lien Umap </a>
+                <iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/carte-sans-nom_1047458?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a class="btn fond_fonce ecriture_claire btn-index" href="//umap.openstreetmap.fr/fr/map/carte-sans-nom_1047458?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
             </div>
         </div>
         
