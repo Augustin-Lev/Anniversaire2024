@@ -9,7 +9,7 @@ class OrganisationController {
             "]; //necessaire au header de model       
         require "models/Header.php";
         require "views/header.php";
-        require_once "models/baseDonnees.php";
+        require "models/baseDonnees.php";
         $inscrits = recup();
         require_once "views/main_organisation.php";
         require "views/footer.php";
