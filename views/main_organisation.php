@@ -45,7 +45,7 @@
         <img src= "<?php echo BASE_URL;?>/views/image/14.png" alt='image pour orga'>
         <img src= "<?php echo BASE_URL;?>/views/image/15.png" alt='image pour orga'>
     </div>
-
+    
     <h2 class="ecriture_claire">Personnes inscrites</h2>
     <table class="tableInscris">
     <?php

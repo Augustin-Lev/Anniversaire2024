@@ -11,7 +11,7 @@ function recup(){
     $users = array();
     foreach ($PDO-> query('SELECT nom, prenom, tel FROM guest', PDO::FETCH_ASSOC) as $user){
         $compteur +=1;
-        array_push($users,$user);
+        $users[] = $user;
     }
     return $users;
 }
