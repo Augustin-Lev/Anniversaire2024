@@ -46,5 +46,14 @@
         <img src= "<?php echo BASE_URL;?>/views/image/15.png" alt='image pour orga'>
     </div>
 
+    <h2 class="ecriture_claire">Personnes inscrites</h2>
+    <table class="tableInscris">
+    <?php
+    foreach ($inscrits as $personne ){
+        echo "<tr><td>".$personne['nom']."</td><td>".$personne['prenom']."</td><td>".$personne['tel']."</td></tr>";
+    }
+    ?>
+    </table>
+
 </main>
 

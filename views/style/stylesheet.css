@@ -406,8 +406,12 @@ form{
 
 .tableInscris{
     border-radius: 0.2rem;
-    margin: 5% 20% 0% 20%
+    width: 60%;
+    margin: 2% 20% 20% 20%;
+    text-align: center;
+    background-color: #a4b998;
 }
+
 
 .paragraphe{
     min-height: 100vh;

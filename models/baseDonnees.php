@@ -1,12 +1,19 @@
 <?php
 
 
-function compteurPresence($PDO){
-    $compteur = 0;
-    foreach ($PDO-> query('SELECT nom, prenom FROM invites WHERE presence = 1 OR presence = "attente"', PDO::FETCH_ASSOC) as $user){
-        $compteur +=1;
+function recup(){
+    try {
+        $PDO = new PDO('mysql:host=localhost;dbname='.dbname, UserDB, passwordDB);
+    }catch(PDOExeption $e){
+        echo 'Erreur lors de la connection à la base de donées';
     }
-    return $compteur;
+    $compteur = 0;
+    $users = array();
+    foreach ($PDO-> query('SELECT nom, prenom, tel FROM guest', PDO::FETCH_ASSOC) as $user){
+        $compteur +=1;
+        array_push($users,$user);
+    }
+    return $users;
 }
 
 function echangeur($PDO){

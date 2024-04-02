@@ -156,7 +156,7 @@
 
                 <tr>
                     <td>
-                        17h
+                        19h
                     </td>
                     <td>
                         Arrivée
@@ -188,7 +188,7 @@
 
                 <tr>
                     <td>
-                        21h
+                        22h
                     </td>
                     <td>
                         Chasse à l'Homme
