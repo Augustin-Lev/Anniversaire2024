@@ -45,6 +45,31 @@
         <img src= "<?php echo BASE_URL;?>/views/image/14.png" alt='image pour orga'>
         <img src= "<?php echo BASE_URL;?>/views/image/15.png" alt='image pour orga'>
     </div>
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/16.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/17.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/18.png" alt='image pour orga'>
+    </div>
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/19.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/20.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/21.png" alt='image pour orga'>
+    </div>
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/22.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/23.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/24.png" alt='image pour orga'>
+    </div>
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/25.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/26.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/27.png" alt='image pour orga'>
+    </div>
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/28.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/29.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/30.png" alt='image pour orga'>
+    </div>
     
     <h2 class="ecriture_claire">Personnes inscrites</h2>
     <table class="tableInscris">
