@@ -58,13 +58,13 @@
         
         <div class="fond_fonce ecriture_claire paragraphe fond_bouclier" style="padding-bottom: 4rem;">
             
-            <div>
+            <div class = "center">
                 
                 <h2>Connexion</h2>
                 <br/>
-                <p class="justifier">Veuillez vous connecter pour accéder aux informations de l'anniversaire. Votre numéro de téléphone sera utilisé afin de mettre à jour les contacts Levasseur. <br/><br/><br/><br/>
+                <p class="justifier">Veuillez vous connecter pour accéder aux informations de l'anniversaire. Votre numéro de téléphone sera utilisé afin de mettre à jour les contacts Levasseur. <br/><br/><br/><br/></p>
                 <a href="<?php echo BASE_URL;?>/connexion " class="btn fond_clair ecriture_fonce">Se connecter</a>
-            </p>                
+                          
             </div>
              
         </div>
