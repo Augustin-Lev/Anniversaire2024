@@ -129,18 +129,25 @@ ul, ol{
     font-style: normal;
     font-size: 10rem;
     position : relative;
-    top : -10rem;
+    top : -10vw;
     margin :0;
     color:#BF8C00;
     z-index: 0;
 
     padding: 0;
     margin: 0;
+    
 }
 
 .age{
     font-size: 10vw;
     margin: 0;
+    z-index: 2;
+    position: relative;
+}
+.index-nom{
+    z-index: 2;
+    position: relative;
 }
 
 .centrer-flex{
@@ -757,7 +764,9 @@ iframe{
         width: 100%;
     }
     .index-ans{
-        top: -20vh;
+        top: -45vw;
+        font-size: 50vw;
+        z-index: 1;
     }
     .age{
         font-size: 20vh;

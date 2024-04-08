@@ -30,7 +30,7 @@
                     </h1>
                     <p class= "index-ans" > ans</p>
                 </div>
-                <p>Adrien</p>
+                <p class="index-nom">Adrien</p>
             </div>
 
             <div class= "tel-c-clair">
@@ -41,7 +41,7 @@
                     <p class= "index-ans" > ans</p>    
                 </div>
                 
-                <p>Marie</p>
+                <p class="index-nom">Marie</p>
             </div>
 
             <div class= "tel-c-fonce">
@@ -52,7 +52,7 @@
                     <p class= "index-ans" > ans</p>
                 </div>
                 
-                <p>Augustin</p>
+                <p class="index-nom">Augustin</p>
             </div>
         </div>
         
