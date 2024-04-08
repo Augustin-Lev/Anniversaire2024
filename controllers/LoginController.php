@@ -2,6 +2,19 @@
 
 class LoginController {
     public function index(){
+        if(isset($_COOKIE["tel"])){
+            if($_SESSION["login"] == 1){
+                $_SESSION["login"] == 0;
+            }else{
+                session_start();
+                $_SESSION["login"] = 1;
+                $_SESSION["nom"] = $_COOKIE["nom"];
+                $_SESSION["prénom"] = $_COOKIE["prenom"];
+    
+                header('Location:'.BASE_URL.'/menu');
+            }
+        }
+
         $header = [
             "javascript"=>0,
             "titre"=>"Anniversaire 2024",
@@ -21,7 +34,6 @@ class LoginController {
         $_SESSION["login"] = 1;
         $_SESSION["nom"] = $_POST["nom"];
         $_SESSION["prénom"] = $_POST["prenom"];
-
         header('Location:'.BASE_URL.'/menu');
     }
 

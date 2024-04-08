@@ -58,7 +58,7 @@
         
         <div class="fond_fonce ecriture_claire paragraphe fond_bouclier" style="padding-bottom: 4rem;">
             
-            <div class = "center">
+            <div class = "center centrer-flex">
                 
                 <h2>Connexion</h2>
                 <br/>

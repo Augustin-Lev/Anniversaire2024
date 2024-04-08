@@ -62,7 +62,7 @@
 
         <div class="fond_clair ecriture_fonce image-carte">
             <div class="index-cote-carte">
-                <h2>Le lieux</h2>
+                <h2>Le lieu</h2>
                 <br/>
                 <p>Vous êtes cordialement invité à la ferme à Etrelles !<br/><br/>
                 1 route de soissons<br/>
