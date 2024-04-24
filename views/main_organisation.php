@@ -70,7 +70,17 @@
         <img src= "<?php echo BASE_URL;?>/views/image/29.png" alt='image pour orga'>
         <img src= "<?php echo BASE_URL;?>/views/image/30.png" alt='image pour orga'>
     </div>
-    
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/31.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/32.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/33.png" alt='image pour orga'>
+    </div>
+    <div class="orgaParent">
+        <img src= "<?php echo BASE_URL;?>/views/image/34.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/35.png" alt='image pour orga'>
+        <img src= "<?php echo BASE_URL;?>/views/image/36.png" alt='image pour orga'>
+    </div>
+
     <h2 class="ecriture_claire">Personnes inscrites</h2>
     <table class="tableInscris">
     <?php
