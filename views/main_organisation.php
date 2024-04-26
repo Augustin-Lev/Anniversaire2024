@@ -10,7 +10,7 @@
     <h1 class="ecriture_claire">Organisation</h1> 
     
     <div class="container btn-container" style="justify-content:center">
-        <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:f:/g/personal/augustin_levasseur_etu_unilasalle_fr/EqSNa-dYrSFDnai9qi6sGqYBgiySuAA19gpJ8F1bgqRXcg?e=Cs1QG2" class="btn-index fond_clair ecriture_fonce">OneDrive</a>
+        <a target="_blank" href="https://cloudlasalle-my.sharepoint.com/:f:/g/personal/augustin_levasseur_etu_unilasalle_fr/EqSNa-dYrSFDnai9qi6sGqYBzst-8hjPxQNFo6KULG6Jrg" class="btn-index fond_clair ecriture_fonce">OneDrive</a>
         
         <a target="_blank" href="https://www.canva.com/design/DAF_hpN8KYY/K4Tqp8WSloffHLnqiXUI5Q/edit?utm_content=DAF_hpN8KYY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn-index fond_clair ecriture_fonce">Canva</a>
 
